@@ -1,6 +1,9 @@
-def load_linear_example1():
-    """"
-    >>> X[0]
-    array([1,4])
-    """"
-    pass
+import datasets
+X, Y = datasets.load_linear_example1()
+print(X)
+print(X[0])
+print(Y)
+
+import regression
+model = regression.LinearRegression()
+print(model.x)
