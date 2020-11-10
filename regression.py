@@ -19,7 +19,7 @@ class LinearRegression:
 class RidgeRegression(LinearRegression):
     alpha = None
     
-    def __init__(self, alpha=0.1):
+    def __init__(self, alpha):
         self.alpha = alpha
 
     def fit(self, input, output):
